@@ -12,6 +12,8 @@ public class EnemyScript : MonoBehaviour
 
     public LayerMask Ground, Player;
 
+    public Player playerHealth;
+
     public float attackTime;
     bool hasAttacked;
 
@@ -100,6 +102,10 @@ public class EnemyScript : MonoBehaviour
         if( other.gameObject.tag == "Player")
         {
             print("collided with player");
+
+
+            playerHealth.PlayerTakeDamage(5);
+            print("Player has taken damage");
         }
     }
 

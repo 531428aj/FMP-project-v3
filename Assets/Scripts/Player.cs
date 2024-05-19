@@ -3,9 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+
 public class Player : MonoBehaviour
 {
-    public float playerHealth = 100f;
+    public float playerHealth;
+    public float maxHealth = 100;
+    private void Start()
+    {
+        playerHealth = maxHealth;
+
+    }
 
 
     public void PlayerTakeDamage(float amount)
@@ -16,12 +23,11 @@ public class Player : MonoBehaviour
         {
             print("You're dead lmao");
 
-            //animator.SetBool("Dead", true);
-
- 
+            Destroy(this.gameObject);
 
         }
     }
+
 
 
 
