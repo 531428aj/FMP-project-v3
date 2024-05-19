@@ -17,6 +17,9 @@ public class EnemyScript : MonoBehaviour
     public float attackTime;
     bool hasAttacked;
 
+    Animator anim;
+
+
     public float attackRange = 10f;
     public float playerDamage = 5f;
     public bool playerInAttackRange;
@@ -37,6 +40,7 @@ public class EnemyScript : MonoBehaviour
     private void Start()
     {
         enemyHealthScript = GetComponent<Enemyhealth>();
+        anim = GetComponent<Animator>();
     }
     private void OnDrawGizmos()
     {
@@ -50,6 +54,7 @@ public class EnemyScript : MonoBehaviour
         if (enemyHealthScript.health > 0)
         {
             agent.SetDestination(playerCharacter.position);
+            anim.SetBool("Dead", true);
         }
 
 
