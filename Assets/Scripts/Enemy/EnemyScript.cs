@@ -35,6 +35,7 @@ public class EnemyScript : MonoBehaviour
     {
         playerCharacter = GameObject.Find("FPS player").transform;
         agent = GetComponent<NavMeshAgent>();
+        anim.SetBool("Run", true);
     }
 
     private void Start()
@@ -53,8 +54,9 @@ public class EnemyScript : MonoBehaviour
 
         if (enemyHealthScript.health > 0)
         {
-            agent.SetDestination(playerCharacter.position);
             anim.SetBool("Dead", true);
+            agent.SetDestination(playerCharacter.position);
+            
         }
 
 
@@ -107,6 +109,7 @@ public class EnemyScript : MonoBehaviour
         if( other.gameObject.tag == "Player")
         {
             print("collided with player");
+            anim.SetBool("Attack", true);
 
 
             playerHealth.PlayerTakeDamage(5);
