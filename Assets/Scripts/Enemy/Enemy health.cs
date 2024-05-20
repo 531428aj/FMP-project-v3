@@ -15,16 +15,18 @@ public class Enemyhealth : MonoBehaviour
     
     public void TakeDamage (float amount)
     {
-        health -= amount;
 
-        if (health <= 0f)
+        if (health > 0)
         {
-            GetComponent<NavMeshAgent>().enabled = false;
+            health -= amount;
+            if (health <= 0f)
+            {
+                //134 enemies
+                GetComponent<NavMeshAgent>().enabled = false;
 
-            //animator.SetBool("Dead", true);
+                StartCoroutine(decayTimer());
 
-            StartCoroutine(decayTimer());
-
+            }
         }
     }
 

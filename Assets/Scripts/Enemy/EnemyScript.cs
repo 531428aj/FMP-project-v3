@@ -14,6 +14,8 @@ public class EnemyScript : MonoBehaviour
 
     public Player playerHealth;
 
+    public float attackLength = 2f;
+
     public float attackTime;
     bool hasAttacked;
 
@@ -35,7 +37,7 @@ public class EnemyScript : MonoBehaviour
     {
         playerCharacter = GameObject.Find("FPS player").transform;
         agent = GetComponent<NavMeshAgent>();
-        anim.SetBool("Run", true);
+        
     }
 
     private void Start()
@@ -51,12 +53,18 @@ public class EnemyScript : MonoBehaviour
 
     private void Update()
     {
+        print("enemy health=" + enemyHealthScript.health);
 
-        if (enemyHealthScript.health > 0)
+        if (enemyHealthScript.health <= 0)
         {
-            anim.SetBool("Dead", true);
-            agent.SetDestination(playerCharacter.position);
+            print("enemy dead!!!");
             
+            anim.SetBool("Dead", true);
+        }
+        else
+        {
+            print("enemy move to player pos");
+            agent.SetDestination(playerCharacter.position);
         }
 
 
@@ -109,14 +117,18 @@ public class EnemyScript : MonoBehaviour
         if( other.gameObject.tag == "Player")
         {
             print("collided with player");
+
             anim.SetBool("Attack", true);
-
-
             playerHealth.PlayerTakeDamage(5);
             print("Player has taken damage");
+
         }
     }
 
+    void OnStateExit()
+    {
+        anim.SetBool("Attack", false);
+    }
 
 
 }
