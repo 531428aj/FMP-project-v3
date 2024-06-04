@@ -14,10 +14,14 @@ public class Game : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             SceneManager.LoadScene("Menu");
         }
+    }
+    public void GameStart()
+    {
+        SceneManager.LoadScene("Game");
     }
 
     public void ExitGame()

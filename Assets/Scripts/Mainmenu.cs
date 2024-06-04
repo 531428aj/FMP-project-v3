@@ -7,8 +7,9 @@ public class Mainmenu : MonoBehaviour
 {
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Confined; 
         Audiomanager.instance.MenuSoundStart();
+        
     }
 
     public void LoadScene(string sceneName) 

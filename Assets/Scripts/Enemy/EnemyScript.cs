@@ -27,6 +27,7 @@ public class EnemyScript : MonoBehaviour
     public bool playerInAttackRange;
 
     Enemyhealth enemyHealthScript;
+    Player playerKilled;
 
     public Vector3 collisionBoxOffset;
     public Vector3 collisionBoxSize = new Vector3(1,1,1);
@@ -43,6 +44,7 @@ public class EnemyScript : MonoBehaviour
     private void Start()
     {
         enemyHealthScript = GetComponent<Enemyhealth>();
+        playerKilled = GetComponent<Player>();
         anim = GetComponent<Animator>();
     }
     private void OnDrawGizmos()
@@ -57,9 +59,11 @@ public class EnemyScript : MonoBehaviour
 
         if (enemyHealthScript.health <= 0)
         {
-            print("enemy dead!!!");
+            
             
             anim.SetBool("Dead", true);
+            
+            print("Enemy killed");
         }
         else
         {
@@ -75,41 +79,7 @@ public class EnemyScript : MonoBehaviour
     }
 
 
-    private void AttackPlayer()
-    {
-        if (playerInAttackRange == true)
-        {
-            
-            print("Hit");
-            /*RaycastHit hit;
-            if (Physics.Raycast(playerCharacter.transform.position, playerCharacter.transform.forward, out hit, attackRange))
-            {
-                Debug.Log(hit.transform.name);
 
-                Player player = hit.transform.GetComponent<Player>();
-                if (player != null)
-                {
-                    player.PlayerTakeDamage(playerDamage);
-                }
-
-
-            }*/
-
-
-
-        }
-    }
-
-    /*
-    void CheckForPlayerCollision()
-    {
-        RaycastHit hitBox;
-        if( Physics.BoxCast(transform.position + collisionBoxOffset, collisionBoxSize / 2, transform.forward, out hitBox ) )
-        {
-            print("enemy has hit something");
-        }
-    }
-    */
 
     private void OnTriggerEnter(Collider other)
     {

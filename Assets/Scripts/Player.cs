@@ -9,12 +9,13 @@ public class Player : MonoBehaviour
 {
     public float playerHealth;
     public float maxHealth = 100;
-    string currentSceneName = SceneManager.GetActiveScene().name;
+    public float enimiesKilled = 0;
+
 
     private void Start()
     {
         playerHealth = maxHealth;
-
+        
     }
 
 
@@ -25,12 +26,10 @@ public class Player : MonoBehaviour
         if (playerHealth <= 0f)
         {
             print("You're dead lmao");
-
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("Game");
 
         }
     }
-
 
 
 

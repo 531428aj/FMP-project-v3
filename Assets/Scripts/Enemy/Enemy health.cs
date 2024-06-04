@@ -20,8 +20,10 @@ public class Enemyhealth : MonoBehaviour
         {
             health -= amount;
             if (health <= 0f)
+                
             {
-                //134 enemies
+                //50 enemies
+
                 GetComponent<NavMeshAgent>().enabled = false;
 
                 StartCoroutine(decayTimer());
@@ -32,8 +34,9 @@ public class Enemyhealth : MonoBehaviour
 
     IEnumerator decayTimer()
     {
+        
         yield return new WaitForSeconds(timeModelIsDead);
-
+        Killcountscript.EnemiesLeft -= 1;
         Destroy(gameObject);
     }
 }

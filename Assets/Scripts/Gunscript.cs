@@ -7,16 +7,25 @@ public class Gunscript : MonoBehaviour
     public float range = 100f;
 
     public Camera playerCam;
+    Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void Update()
     {
         if(Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            
         }
+        
     }
     void Shoot()
     {
+        anim.SetBool("Shot", true);
         RaycastHit hit;
         if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out hit, range))
         {
@@ -27,7 +36,12 @@ public class Gunscript : MonoBehaviour
             {
                 enemy.TakeDamage(damage);
             }
-
+            
         }
+        
+    }
+    void Recoil()
+    {
+        anim.SetBool("Shot", false);
     }
 }
