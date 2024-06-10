@@ -489,6 +489,10 @@ PrefabInstance:
       value: Enemy 3 (47)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -496,6 +500,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -1645,6 +1653,10 @@ PrefabInstance:
       value: Enemy 3 (46)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -1652,6 +1664,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -2217,6 +2233,10 @@ PrefabInstance:
       value: Enemy 3 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -2224,6 +2244,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -4000,6 +4024,10 @@ PrefabInstance:
       value: Enemy 3 (34)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -4007,6 +4035,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -5178,6 +5210,10 @@ PrefabInstance:
       value: Enemy 3 (38)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -5185,6 +5221,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -6257,6 +6297,10 @@ PrefabInstance:
       value: Enemy 3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -6264,6 +6308,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -7409,6 +7457,10 @@ PrefabInstance:
       value: Enemy 3 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -7416,6 +7468,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -7580,6 +7636,10 @@ PrefabInstance:
       value: Enemy 3 (12)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -7587,6 +7647,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -7748,10 +7812,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca011a16905c8a43b53559964279233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunShotSource: {fileID: 1829711915}
-  swordSlashSource: {fileID: 1584702254}
   clickSource: {fileID: 1289402632}
-  gunShot: {fileID: 8300000, guid: ab59372e8c858314996d0af0f1421eb7, type: 3}
+  gunShot: {fileID: 8300000, guid: af865d7e53a09da4191b12607fae4b0e, type: 3}
   swordSlash: {fileID: 8300000, guid: 84a5c2f32e49cc84ca9260a3cf169ae6, type: 3}
   click: {fileID: 8300000, guid: fc082f6b1d0c4d246ae15e7f943fb8ac, type: 3}
 --- !u!1001 &248327403
@@ -10880,6 +10942,10 @@ PrefabInstance:
       value: Enemy 3 (49)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -10887,6 +10953,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -11435,6 +11505,10 @@ PrefabInstance:
       value: Enemy 3 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -11442,6 +11516,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -11826,6 +11904,10 @@ PrefabInstance:
       value: Enemy 3 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -11833,6 +11915,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -16056,6 +16142,10 @@ PrefabInstance:
       value: Enemy 3
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -16063,6 +16153,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -16227,6 +16321,10 @@ PrefabInstance:
       value: Enemy 3 (48)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -16234,6 +16332,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -18264,6 +18366,10 @@ PrefabInstance:
       value: Enemy 3 (26)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -18271,6 +18377,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -19181,6 +19291,10 @@ PrefabInstance:
       value: Enemy 3 (40)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -19188,6 +19302,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -19353,6 +19471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 592601903}
+  - component: {fileID: 592601904}
   m_Layer: 0
   m_Name: Game manager
   m_TagString: Untagged
@@ -19375,6 +19494,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592601904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592601901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca011a16905c8a43b53559964279233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSource: {fileID: 0}
+  gunShot: {fileID: 8300000, guid: af865d7e53a09da4191b12607fae4b0e, type: 3}
+  swordSlash: {fileID: 8300000, guid: 84a5c2f32e49cc84ca9260a3cf169ae6, type: 3}
+  click: {fileID: 8300000, guid: fc082f6b1d0c4d246ae15e7f943fb8ac, type: 3}
 --- !u!1 &600037182
 GameObject:
   m_ObjectHideFlags: 0
@@ -20544,6 +20679,10 @@ PrefabInstance:
       value: Enemy 3 (44)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -20551,6 +20690,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -24121,6 +24264,10 @@ PrefabInstance:
       value: Enemy 3 (43)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -24128,6 +24275,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -26311,6 +26462,10 @@ PrefabInstance:
       value: Enemy 3 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -26318,6 +26473,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -26616,6 +26775,10 @@ PrefabInstance:
       value: Enemy 3 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -26623,6 +26786,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -26793,6 +26960,10 @@ PrefabInstance:
       value: Enemy 3 (25)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -26800,6 +26971,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -26858,6 +27033,10 @@ PrefabInstance:
       value: Enemy 3 (29)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -26865,6 +27044,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -27034,6 +27217,10 @@ PrefabInstance:
       value: Enemy 3 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -27041,6 +27228,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -27210,6 +27401,10 @@ PrefabInstance:
       value: Enemy 3 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -27217,6 +27412,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -29209,6 +29408,10 @@ PrefabInstance:
       value: Enemy 3 (21)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -29216,6 +29419,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -32961,6 +33168,10 @@ PrefabInstance:
       value: Enemy 3 (28)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -32968,6 +33179,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -33358,6 +33573,10 @@ PrefabInstance:
       value: Enemy 3 (31)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -33365,6 +33584,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -36097,6 +36320,10 @@ PrefabInstance:
       value: Enemy 3 (35)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -36104,6 +36331,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -38141,6 +38372,10 @@ PrefabInstance:
       value: Enemy 3 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -38148,6 +38383,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -39483,6 +39722,10 @@ PrefabInstance:
       value: Enemy 3 (13)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -39490,6 +39733,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -40949,9 +41196,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3faa9356444ee42a67ec1b1d5343cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gunShotSource: {fileID: 1829711915}
   audioManagerScript: {fileID: 246148129}
   damage: 10
   range: 100
+  gunShot: {fileID: 8300000, guid: af865d7e53a09da4191b12607fae4b0e, type: 3}
   playerCam: {fileID: 7657158571962823981}
 --- !u!114 &1326933237
 MonoBehaviour:
@@ -42150,6 +42399,10 @@ PrefabInstance:
       value: Enemy 3 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -42157,6 +42410,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -42288,6 +42545,10 @@ PrefabInstance:
       value: Enemy 3 (32)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -42295,6 +42556,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -42976,6 +43241,10 @@ PrefabInstance:
       value: Enemy 3 (15)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -42983,6 +43252,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -46494,6 +46767,10 @@ PrefabInstance:
       value: Enemy 3 (37)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -46501,6 +46778,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -47714,6 +47995,10 @@ PrefabInstance:
       value: Enemy 3 (33)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -47721,6 +48006,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -48126,6 +48415,10 @@ PrefabInstance:
       value: Enemy 3 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -48133,6 +48426,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -48500,6 +48797,10 @@ PrefabInstance:
       value: Enemy 3 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -48507,6 +48808,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -48912,6 +49217,10 @@ PrefabInstance:
       value: Enemy 3 (36)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -48919,6 +49228,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -49491,6 +49804,10 @@ PrefabInstance:
       value: Enemy 3 (14)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -49498,6 +49815,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -49556,6 +49877,10 @@ PrefabInstance:
       value: Enemy 3 (50)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -49563,6 +49888,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -54763,6 +55092,10 @@ PrefabInstance:
       value: Enemy 3 (42)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -54770,6 +55103,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -55618,6 +55955,10 @@ PrefabInstance:
       value: Enemy 3 (39)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -55625,6 +55966,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -56055,7 +56400,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3172298948257553168, guid: 3c58ccd2df6894b47afe9858f375acbf, type: 2}
-  m_audioClip: {fileID: 8300000, guid: ab59372e8c858314996d0af0f1421eb7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: af865d7e53a09da4191b12607fae4b0e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -57256,6 +57601,10 @@ PrefabInstance:
       value: Enemy 3 (27)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -57263,6 +57612,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -57321,6 +57674,10 @@ PrefabInstance:
       value: Enemy 3 (22)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -57328,6 +57685,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -58289,6 +58650,10 @@ PrefabInstance:
       value: Enemy 3 (30)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -58296,6 +58661,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -59590,6 +59959,10 @@ PrefabInstance:
       value: Enemy 3 (24)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -59597,6 +59970,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -61824,6 +62201,10 @@ PrefabInstance:
       value: Enemy 3 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -61831,6 +62212,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -63375,6 +63760,10 @@ PrefabInstance:
       value: Enemy 3 (45)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -63382,6 +63771,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.29107
@@ -63681,6 +64074,10 @@ PrefabInstance:
       value: Enemy 3 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -63688,6 +64085,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35
@@ -64580,6 +64981,10 @@ PrefabInstance:
       value: Enemy 3 (23)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -64587,6 +64992,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 102.6
@@ -64645,6 +65054,10 @@ PrefabInstance:
       value: Enemy 3 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -64652,6 +65065,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 204.65894
@@ -65215,6 +65632,10 @@ PrefabInstance:
       value: Enemy 3 (41)
       objectReference: {fileID: 0}
     - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlash
+      value: 
+      objectReference: {fileID: 8300000, guid: f3839dc46f3e01642ba51cdbc657eb73, type: 3}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1326933237}
@@ -65222,6 +65643,10 @@ PrefabInstance:
       propertyPath: playerCharacter
       value: 
       objectReference: {fileID: 3689472238432354605}
+    - target: {fileID: 5696010923093528774, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
+      propertyPath: swordSlashSource
+      value: 
+      objectReference: {fileID: 1584702254}
     - target: {fileID: 8911919779869115192, guid: 32f9735008687c3478d3bb9cbdd94154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 200.35

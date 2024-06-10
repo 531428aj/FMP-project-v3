@@ -21,7 +21,7 @@ public class EnemyScript : MonoBehaviour
     bool hasAttacked;
 
     Animator anim;
-
+    [SerializeField] AudioSource swordSlashSource;
 
     public float attackRange = 10f;
     public float playerDamage = 5f;
@@ -30,6 +30,8 @@ public class EnemyScript : MonoBehaviour
     Enemyhealth enemyHealthScript;
     Player playerKilled;
     AudioManager audioManager;
+
+    public AudioClip swordSlash;
 
     public Vector3 collisionBoxOffset;
     public Vector3 collisionBoxSize = new Vector3(1,1,1);
@@ -49,6 +51,11 @@ public class EnemyScript : MonoBehaviour
         playerKilled = GetComponent<Player>();
         anim = GetComponent<Animator>();
         audioManager = GetComponent<AudioManager>();
+        swordSlashSource.clip = swordSlash;
+    }
+    void SlashPressed()
+    {
+        swordSlashSource.Play();
     }
 
 

@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Gunscript : MonoBehaviour
 {
-
+    [SerializeField] AudioSource gunShotSource;
     public AudioManager audioManagerScript;
        
 
     public float damage = 10f;
     public float range = 100f;
+
+    public AudioClip gunShot;
 
     public Camera playerCam;
     Animator anim;
@@ -19,6 +21,7 @@ public class Gunscript : MonoBehaviour
 
     private void Start()
     {
+        gunShotSource.clip = gunShot;
         anim = GetComponent<Animator>();
        
         
@@ -37,9 +40,8 @@ public class Gunscript : MonoBehaviour
     {
         //audioManagerScript.gunShot();
 
-
+        gunShotSource.Play();
         anim.SetBool("Shot", true);
- 
         RaycastHit hit;
         if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out hit, range))
         {

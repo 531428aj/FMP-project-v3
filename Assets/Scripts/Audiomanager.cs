@@ -16,8 +16,8 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    [SerializeField] AudioSource gunShotSource;
-    [SerializeField] AudioSource swordSlashSource;
+    
+    
     [SerializeField] AudioSource clickSource;
 
 
@@ -30,10 +30,10 @@ public class AudioManager : MonoBehaviour
 
     public void Start()
     {
-        gunShotSource.clip = gunShot;
+        
         //musicSource.Play();
 
-        swordSlashSource.clip = swordSlash;
+        
         clickSource.clip = click;  
 
 
@@ -48,14 +48,8 @@ public class AudioManager : MonoBehaviour
     {
         clickSource.Play();
     }
-    public void AudioWhenShot()
-    {
-        gunShotSource.Play();
-    }
-    void WhenSlash()
-    {
-        gunShotSource.Play();
-    }
+
+
 
 
 
