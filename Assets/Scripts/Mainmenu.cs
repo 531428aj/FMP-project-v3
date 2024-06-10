@@ -8,7 +8,7 @@ public class Mainmenu : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Confined; 
-        Audiomanager.instance.MenuSoundStart();
+        
         
     }
 

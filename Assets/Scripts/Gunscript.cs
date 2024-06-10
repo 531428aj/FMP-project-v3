@@ -1,17 +1,27 @@
 
 using UnityEngine;
 
+
 public class Gunscript : MonoBehaviour
 {
+
+    public AudioManager audioManagerScript;
+       
+
     public float damage = 10f;
     public float range = 100f;
 
     public Camera playerCam;
     Animator anim;
 
+    
+
+
     private void Start()
     {
         anim = GetComponent<Animator>();
+       
+        
     }
 
     void Update()
@@ -23,9 +33,13 @@ public class Gunscript : MonoBehaviour
         }
         
     }
-    void Shoot()
+    public void Shoot()
     {
+        //audioManagerScript.gunShot();
+
+
         anim.SetBool("Shot", true);
+ 
         RaycastHit hit;
         if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out hit, range))
         {

@@ -57658,7 +57658,7 @@ GameObject:
   - component: {fileID: 5773022787236246078}
   - component: {fileID: 8644961758284564212}
   - component: {fileID: 8644961758284564213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brdigeuntitled
   m_TagString: Untagged
   m_Icon: {fileID: 0}

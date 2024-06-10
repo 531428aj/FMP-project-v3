@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Killcountscript : MonoBehaviour
 
 {
-    public static int EnemiesLeft = 40;
+    public static int EnemiesLeft = 0;
     public float EnemiesAlive = EnemiesLeft;
     void Start()
     {
@@ -16,9 +16,10 @@ public class Killcountscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (EnemiesLeft == 0)
+        if (EnemiesLeft == 40)
         {
-            SceneManager.LoadScene("Menu");
+            EnemiesLeft -= EnemiesLeft;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

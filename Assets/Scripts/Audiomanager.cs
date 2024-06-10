@@ -4,34 +4,37 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Audiomanager : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
-    public static Audiomanager instance;
+    public static AudioManager instance;
     private void Awake()
     {
-         if (instance == null)
+        if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
     }
 
-    [SerializeField] AudioSource musicSource;
-    [SerializeField] AudioSource sfxSource;
+    [SerializeField] AudioSource gunShotSource;
+    [SerializeField] AudioSource swordSlashSource;
+    [SerializeField] AudioSource clickSource;
 
 
 
-    public AudioClip music;
-    public AudioClip sfx;
-    
+    public AudioClip gunShot;
+    public AudioClip swordSlash;
+    public AudioClip click;
 
 
-    private void Start()
+
+    public void Start()
     {
-        musicSource.clip = music;
+        gunShotSource.clip = gunShot;
         //musicSource.Play();
 
-        sfxSource.clip = sfx;
+        swordSlashSource.clip = swordSlash;
+        clickSource.clip = click;  
 
 
         if (SceneManager.GetActiveScene().name == "Menu")
@@ -41,27 +44,19 @@ public class Audiomanager : MonoBehaviour
         print("start audio manager");
     }
 
-
-    public void MenuSoundStart()
+    void MenuButtonPressed()
     {
-        musicSource.clip = music;
-        musicSource.Play();
+        clickSource.Play();
     }
-    public void MenuSoundStop()
+    public void AudioWhenShot()
     {
-        musicSource.clip = music;
-        musicSource.Stop();
+        gunShotSource.Play();
     }
-
-
-
-
-
-    private void Update()
+    void WhenSlash()
     {
-      
-        
+        gunShotSource.Play();
     }
+
 
 
 

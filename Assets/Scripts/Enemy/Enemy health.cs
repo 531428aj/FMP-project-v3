@@ -36,7 +36,7 @@ public class Enemyhealth : MonoBehaviour
     {
         
         yield return new WaitForSeconds(timeModelIsDead);
-        Killcountscript.EnemiesLeft -= 1;
+        Killcountscript.EnemiesLeft += 1;
         Destroy(gameObject);
     }
 }

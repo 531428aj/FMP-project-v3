@@ -1,3 +1,4 @@
+using NiceIO.Sysroot;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,6 +29,7 @@ public class EnemyScript : MonoBehaviour
 
     Enemyhealth enemyHealthScript;
     Player playerKilled;
+    AudioManager audioManager;
 
     public Vector3 collisionBoxOffset;
     public Vector3 collisionBoxSize = new Vector3(1,1,1);
@@ -46,12 +48,9 @@ public class EnemyScript : MonoBehaviour
         enemyHealthScript = GetComponent<Enemyhealth>();
         playerKilled = GetComponent<Player>();
         anim = GetComponent<Animator>();
+        audioManager = GetComponent<AudioManager>();
     }
-    private void OnDrawGizmos()
-    {
-       // Gizmos.color = Color.yellow;
-        //Gizmos.DrawWireCube(transform.position + collisionBoxOffset, collisionBoxSize);
-    }
+
 
     private void Update()
     {
@@ -74,7 +73,7 @@ public class EnemyScript : MonoBehaviour
 
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, Player);
 
-        //CheckForPlayerCollision();
+        
 
     }
 
@@ -87,7 +86,7 @@ public class EnemyScript : MonoBehaviour
         if( other.gameObject.tag == "Player")
         {
             print("collided with player");
-
+            
             anim.SetBool("Attack", true);
             playerHealth.PlayerTakeDamage(5);
             print("Player has taken damage");

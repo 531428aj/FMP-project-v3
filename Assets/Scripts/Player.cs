@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 
 public class Player : MonoBehaviour
@@ -10,6 +11,7 @@ public class Player : MonoBehaviour
     public float playerHealth;
     public float maxHealth = 100;
     public float enimiesKilled = 0;
+    public TMP_Text health;
 
 
     private void Start()
@@ -30,9 +32,13 @@ public class Player : MonoBehaviour
 
         }
     }
+    void Update()
+    {
+        health.SetText("Health" + playerHealth);
+    }
 
 
 
 
-    public GameObject player;
+public GameObject player;
 }
