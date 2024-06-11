@@ -27,20 +27,6 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if (isGrounded && velocity.y < 0)
-        {
-            velocity.y = -1f;
-            //animator.SetBool("Falling", true);
-        }
-
-        /*if (isGrounded && speed > 0)
-        {
-            animator.SetBool("Running", true);
-        }
-        if (isGrounded && speed < 0.1)
-        {
-            animator.SetBool("Idle", true);
-        }*/
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");

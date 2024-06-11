@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Volumesettings : MonoBehaviour
 {
@@ -13,10 +12,10 @@ public class Volumesettings : MonoBehaviour
     [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider sfxSlider;
-    
+
     private void Start()
     {
-        if(PlayerPrefs.HasKey("musicVolume"))
+        if (PlayerPrefs.HasKey("musicVolume"))
         {
             LoadVolume();
         }
@@ -24,10 +23,10 @@ public class Volumesettings : MonoBehaviour
         {
             SetMusicVolume();
             SetSFXVolume();
-            
+
         }
 
-       
+
     }
 
     public void SetMusicVolume()
@@ -52,12 +51,6 @@ public class Volumesettings : MonoBehaviour
         sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume");
         SetMusicVolume();
         SetSFXVolume();
-        
-    }
 
-    private void Update()
-    {
     }
-
 }
-

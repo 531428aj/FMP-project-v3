@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        health.SetText("Health" + playerHealth);
+        health.SetText("Health: " + playerHealth);
     }
 
 

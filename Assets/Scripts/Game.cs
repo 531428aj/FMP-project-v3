@@ -28,6 +28,11 @@ public class Game : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void GameEnd()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
     public void ExitGame()
     {
         Application.Quit();
