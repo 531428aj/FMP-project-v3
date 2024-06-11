@@ -1134,9 +1134,11 @@ MonoBehaviour:
   playerHealth: {fileID: 0}
   attackLength: 0
   attackTime: 1
+  swordSlashSource: {fileID: 0}
   attackRange: 2
   playerDamage: 5
   playerInAttackRange: 0
+  swordSlash: {fileID: 0}
   collisionBoxOffset: {x: 0, y: 0, z: 0}
   collisionBoxSize: {x: 1, y: 1, z: 1}
 --- !u!114 &8964658792072074200
@@ -1154,6 +1156,7 @@ MonoBehaviour:
   health: 10
   animator: {fileID: 8631105474240812174}
   timeModelIsDead: 5
+  splatPrefab: {fileID: 1834194341294532, guid: d5f26854a8904624c8073139cd2eb346, type: 3}
 --- !u!136 &2303261474096139523
 CapsuleCollider:
   m_ObjectHideFlags: 0
